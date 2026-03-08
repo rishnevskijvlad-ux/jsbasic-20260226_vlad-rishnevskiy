@@ -4,7 +4,7 @@ let i = 1;
     i *= n--;
 }
 if (n === 0) {
-  return false;
+  return 1;
 }
 return i;
 }
